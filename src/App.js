@@ -8,6 +8,13 @@ import GameDetails from "./components/GameDetails";
 import CatalogPage from "./components/CatalogPage";
 
 function App() {
+  const routes = {
+    '/home': WelcomeWorld,
+    '/games': CatalogPage,
+    '/create': Create,
+
+  }
+
   return (
     <div id="box">
       <Header />
